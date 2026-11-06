@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Garasje 45 – verksted, treff og fellesskap for minibilinteresserte.">
+  <title>Garasje 45 | Mer enn et verksted</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#hjem" aria-label="Garasje 45 – hjem">
+      <span class="brand-mark">G<span>45</span></span>
+      <span class="brand-name">GARASJE <strong>45</strong></span>
+    </a>
+    <button class="menu-toggle" aria-label="Åpne meny" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#tjenester">Tjenester</a>
+      <a href="#treff">Treff</a>
+      <a href="#om">Om oss</a>
+      <a class="nav-button" href="#kontakt">Kontakt</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="hjem">
+      <div class="hero-content">
+        <p class="eyebrow">VERKSTED · FELLESSKAP · MINIBIL</p>
+        <h1>MER ENN<br><span>ET VERKSTED.</span></h1>
+        <p class="hero-text">Et sted for deg som liker minibil, gode folk og alt som har med motor å gjøre.</p>
+        <div class="hero-actions">
+          <a class="button button-yellow" href="#tjenester">Se hva vi tilbyr</a>
+          <a class="button button-outline" href="#treff">Se kommende treff</a>
+        </div>
+        <p class="hero-note">FIKTIVT SKOLEPROSJEKT · INFORMASJON OG PRISER ER EKSEMPLER</p>
+      </div>
+      <div class="hero-stamp" aria-hidden="true"><span>G45</span><small>EST. 2026</small></div>
+    </section>
+
+    <section class="intro section" id="om">
+      <div>
+        <p class="eyebrow">VELKOMMEN TIL GARASJE 45</p>
+        <h2>Et miljø.<br><span>Ikke bare en garasje.</span></h2>
+      </div>
+      <p class="intro-copy">Garasje 45 er et tenkt møtested for ungdom som er interessert i mopedbil og minibil. Her skal det være enkelt å få oversikt over hjelp, deler og arrangementer – og et hyggelig sted å møte andre med samme interesse.</p>
+    </section>
+
+    <section class="services section" id="tjenester">
+      <div class="section-heading">
+        <div><p class="eyebrow">HVA VI KAN HJELPE MED</p><h2>Våre tjenester</h2></div>
+        <p>En enkel oversikt over hva du kan finne hos oss.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card"><span class="service-number">01</span><div class="service-icon">⚙</div><h3>Verkstedhjelp</h3><p>Enkle kontroller, vedlikehold og hjelp til å forstå vanlige problemer.</p><span class="price">Eksempel fra 250 kr</span></article>
+        <article class="service-card"><span class="service-number">02</span><div class="service-icon">▧</div><h3>Deler og utstyr</h3><p>Informasjon om vanlige reservedeler og praktisk utstyr til minibiler.</p><span class="price">Pris etter forespørsel</span></article>
+        <article class="service-card"><span class="service-number">03</span><div class="service-icon">✦</div><h3>Møteplass</h3><p>Et sosialt sted hvor du kan møte andre og dele interessen din.</p><span class="price">Gratis treff</span></article>
+      </div>
+      <p class="small-note">Alle tjenester og priser på denne nettsiden er fiktive eksempler laget til et skoleprosjekt.</p>
+    </section>
+
+    <section class="meetup section" id="treff">
+      <div class="meetup-copy">
+        <p class="eyebrow">HOLD DEG OPPDATERT</p>
+        <h2>Det skjer<br><span>i garasjen.</span></h2>
+        <p>Vi planlegger uformelle treff der folk kan møtes, se på kjøretøy og bli kjent. Sjekk eksempelarrangementene under.</p>
+      </div>
+      <div class="event-list">
+        <article class="event"><div class="event-date"><strong>15</strong><span>MAI</span></div><div><h3>Åpent garasjetreff</h3><p>En sosial kveld for minibilinteresserte.</p></div><span class="event-tag">EKSEMPEL</span></article>
+        <article class="event"><div class="event-date"><strong>29</strong><span>MAI</span></div><div><h3>Sommerstart</h3><p>Møt andre, del erfaringer og bli kjent.</p></div><span class="event-tag">EKSEMPEL</span></article>
+        <article class="event"><div class="event-date"><strong>12</strong><span>JUN</span></div><div><h3>Garasjekveld</h3><p>En rolig kveld med prat og interesse.</p></div><span class="event-tag">EKSEMPEL</span></article>
+      </div>
+    </section>
+
+    <section class="visit section">
+      <div class="visit-panel">
+        <div><p class="eyebrow">FINN OSS</p><h2>Ta turen<br>innom.</h2><p>Vi holder til på en fiktiv adresse i dette skoleprosjektet. Kontaktinformasjonen er kun et eksempel.</p></div>
+        <div class="visit-details">
+          <div><span>ADRESSE</span><strong>Garasjeveien 45, 6415 Molde</strong></div>
+          <div><span>ÅPNINGSTIDER</span><strong>Man–fre: 15:00–20:00<br>Lør: 12:00–17:00</strong></div>
+          <div><span>E-POST</span><strong>hei@garasje45.example</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="kontakt">
+      <div><p class="eyebrow">LURER DU PÅ NOE?</p><h2>Ta kontakt.</h2><p>Send en testmelding via skjemaet. Skjemaet er bare en demonstrasjon og sender ikke informasjon noe sted.</p></div>
+      <form class="contact-form" id="contactForm">
+        <label for="name">Navn</label><input id="name" name="name" type="text" placeholder="Skriv navnet ditt" required>
+        <label for="email">E-post</label><input id="email" name="email" type="email" placeholder="navn@eksempel.no" required>
+        <label for="message">Melding</label><textarea id="message" name="message" rows="4" placeholder="Hva lurer du på?" required></textarea>
+        <button class="button button-yellow" type="submit">Send testmelding</button>
+        <p class="form-message" id="formMessage" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand" href="#hjem"><span class="brand-mark">G<span>45</span></span><span class="brand-name">GARASJE <strong>45</strong></span></a>
+    <p>Et møtested for minibilinteresserte.</p>
+    <p class="footer-small">© 2026 Garasje 45 · Fiktivt skoleprosjekt</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
