@@ -29,7 +29,3 @@ FARGER
 FONTER
 - Overskrifter: Barlow Condensed
 - Brødtekst: DM Sans
-
-HUSK TIL PROSJEKTET
-Ta skjermbilder underveis, skriv arbeidslogg hver uke, test med 3–5 personer,
-og forklar hvilke endringer du gjorde etter tilbakemeldinger.
